@@ -193,6 +193,7 @@ int main(){
                         if (typeid(personas[i])==typeid(Repartidor)){
                                 cout << "Repartidor "<<i+1 << ") nombre: "<< personas[i]->getName();
                             }
+                            
                     }
                     cout << "ingrese el numero del Repartidor que desea agarrar: "<< endl;
                     cin>> posireparte;
